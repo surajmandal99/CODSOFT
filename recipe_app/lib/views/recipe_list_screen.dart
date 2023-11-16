@@ -24,7 +24,7 @@ class RecipeListScreen extends StatelessWidget {
           TextField(
             onChanged: (query) {
               controller.filterRecipes(query);
-            }, 
+            },
             decoration: const InputDecoration(
               labelText: 'Search Recipes',
               contentPadding: EdgeInsets.all(15),
